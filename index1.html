@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignmet1 (part 1)</title>
+    <style>
+        button{
+            margin-right: 10px;
+            align-items: center;
+            padding: 5px 5px 5px 5px;
+            transition: transform ease 0.2s;
+            &:hover{
+                cursor: pointer;
+                transform: scale(1.2);
+            }
+        }
+    </style>
+
+    <script src="./index1.js"></script>
+</head>
+<body>
+    <label for="num1">Enter Number 1 : </label><input type="text" id="num1" /> <span id="isNum1"></span>
+    <br>
+    <br>
+    <label for="num2">Enter Number 2 : </label><input type="text" id="num2" /> <span id="isNum2"></span>
+    <br>
+    <br>
+    <div><span>Final Result : </span><span class="div" id="div1"></span></div>
+    <br>
+    <br>
+    <button onclick="Add()">sum</button>
+    <button onclick="Sub()">sub</button>
+    <button onclick="Mul()">mul</button>
+    <button onclick="Div()">div</button>
+    <button onclick="Mod()">mod</button>
+
+</body>
+</html>
